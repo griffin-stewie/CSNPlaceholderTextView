@@ -66,6 +66,12 @@
     self.placeholderLabel.font = font;
 }
 
+- (void)setText:(NSString *)text
+{
+    [super setText:text];
+    [self updatePlaceholderLabelVisibility];
+}
+
 - (void)setPlaceholder:(NSString *)placeholder
 {
     self.placeholderLabel.text = placeholder;

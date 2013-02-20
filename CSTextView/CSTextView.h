@@ -24,6 +24,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ Subclass of UITextView with placeholder property like UITextField has.
+ */
 @interface CSTextView : UITextView
 @property (nonatomic, copy) NSString *placeholder;
 @end
