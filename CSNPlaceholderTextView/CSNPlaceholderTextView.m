@@ -1,5 +1,5 @@
 //
-//  CSTextView.m
+//  CSNPlaceholderTextView.m
 //
 //  Created by griffin_stewie on 2013/02/19.
 //  Copyright (c) 2013年 cyan-stivy.net. All rights reserved.
@@ -22,13 +22,13 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#import "CSTextView.h"
+#import "CSNPlaceholderTextView.h"
 
-@interface CSTextView ( )
+@interface CSNPlaceholderTextView ( )
 @property (nonatomic, strong) UILabel *placeholderLabel;
 @end
 
-@implementation CSTextView
+@implementation CSNPlaceholderTextView
 
 - (id)initWithFrame:(CGRect)frame
 {

@@ -1,5 +1,5 @@
 //
-//  CSTextView.h
+//  CSNPlaceholderTextView.h
 //
 //  Created by griffin_stewie on 2013/02/19.
 //  Copyright (c) 2013年 cyan-stivy.net. All rights reserved.
@@ -27,6 +27,6 @@
 /**
  Subclass of UITextView with placeholder property like UITextField has.
  */
-@interface CSTextView : UITextView
+@interface CSNPlaceholderTextView : UITextView
 @property (nonatomic, copy) NSString *placeholder;
 @end

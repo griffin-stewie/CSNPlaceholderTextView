@@ -1,6 +1,6 @@
 //
-//  CSTextViewDemoTests.m
-//  CSTextViewDemoTests
+//  CSNPlaceholderTextViewDemoTests.m
+//  CSNPlaceholderTextViewDemoTests
 //
 //  Created by griffin_stewie on 2013/02/19.
 //  Copyright (c) 2013年 cyan-stivy.net. All rights reserved.
@@ -8,10 +8,10 @@
 
 #import <XCTest/XCTest.h>
 
-@interface CSTextViewDemoTests : XCTestCase
+@interface CSNPlaceholderTextViewDemoTests : XCTestCase
 @end
 
-@implementation CSTextViewDemoTests
+@implementation CSNPlaceholderTextViewDemoTests
 
 - (void)setUp
 {
@@ -29,7 +29,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"Unit tests are not implemented yet in CSTextViewDemoTests");
+    XCTFail(@"Unit tests are not implemented yet in CSNPlaceholderTextViewDemoTests");
 }
 
 @end

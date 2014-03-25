@@ -1,6 +1,6 @@
 //
 //  FirstViewController.m
-//  CSTextViewDemo
+//  CSNPlaceholderTextViewDemo
 //
 //  Created by griffin_stewie on 2013/02/19.
 //  Copyright (c) 2013年 cyan-stivy.net. All rights reserved.
@@ -9,7 +9,7 @@
 #import "FirstViewController.h"
 
 @interface FirstViewController ()
-@property (nonatomic, strong) CSTextView *textView;
+@property (nonatomic, strong) CSNPlaceholderTextView *textView;
 @end
 
 @implementation FirstViewController
@@ -32,10 +32,10 @@
     [super viewWillAppear:animated];
 }
 
-- (CSTextView *)textView
+- (CSNPlaceholderTextView *)textView
 {
     if (_textView == nil) {
-        _textView = [[CSTextView alloc] initWithFrame:CGRectMake(10, 60, 300, 130)];
+        _textView = [[CSNPlaceholderTextView alloc] initWithFrame:CGRectMake(10, 60, 300, 130)];
         _textView.placeholder = @"This is placeholder text";
         _textView.font = [UIFont systemFontOfSize:19];
     }

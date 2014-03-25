@@ -21,8 +21,8 @@
 		E3A9446A16D3B7FD0042B574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A9443916D3B7FD0042B574 /* UIKit.framework */; };
 		E3A9446B16D3B7FD0042B574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A9443B16D3B7FD0042B574 /* Foundation.framework */; };
 		E3A9447316D3B7FD0042B574 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3A9447116D3B7FD0042B574 /* InfoPlist.strings */; };
-		E3A9447616D3B7FD0042B574 /* CSTextViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A9447516D3B7FD0042B574 /* CSTextViewDemoTests.m */; };
-		E3A9448216D3B8280042B574 /* CSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A9448116D3B8280042B574 /* CSTextView.m */; };
+		E3A9447616D3B7FD0042B574 /* CSNPlaceholderTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A9447516D3B7FD0042B574 /* CSNPlaceholderTextViewTests.m */; };
+		E3A9448216D3B8280042B574 /* CSNPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A9448116D3B8280042B574 /* CSNPlaceholderTextView.m */; };
 		E3A9448416D3D14D0042B574 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A9448316D3D14D0042B574 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,14 +39,14 @@
 /* Begin PBXFileReference section */
 		E344276D18E1CE91005AE8E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E344276F18E1D0FA005AE8E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E3A9443616D3B7FD0042B574 /* CSTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A9443616D3B7FD0042B574 /* CSNPlaceholderTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSNPlaceholderTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A9443916D3B7FD0042B574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E3A9443B16D3B7FD0042B574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3A9443D16D3B7FD0042B574 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E3A9444116D3B7FD0042B574 /* CSTextViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSTextViewDemo-Info.plist"; sourceTree = "<group>"; };
+		E3A9444116D3B7FD0042B574 /* CSNPlaceholderTextViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSNPlaceholderTextViewDemo-Info.plist"; sourceTree = "<group>"; };
 		E3A9444316D3B7FD0042B574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3A9444516D3B7FD0042B574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E3A9444716D3B7FD0042B574 /* CSTextViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSTextViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E3A9444716D3B7FD0042B574 /* CSNPlaceholderTextViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSNPlaceholderTextViewDemo-Prefix.pch"; sourceTree = "<group>"; };
 		E3A9444816D3B7FD0042B574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3A9444916D3B7FD0042B574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E3A9445216D3B7FD0042B574 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -54,12 +54,12 @@
 		E3A9445516D3B7FD0042B574 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		E3A9445B16D3B7FD0042B574 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		E3A9445C16D3B7FD0042B574 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		E3A9446716D3B7FD0042B574 /* CSTextViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSTextViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3A9447016D3B7FD0042B574 /* CSTextViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSTextViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		E3A9446716D3B7FD0042B574 /* CSNPlaceholderTextViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSNPlaceholderTextViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A9447016D3B7FD0042B574 /* CSNPlaceholderTextViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSNPlaceholderTextViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		E3A9447216D3B7FD0042B574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E3A9447516D3B7FD0042B574 /* CSTextViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSTextViewDemoTests.m; sourceTree = "<group>"; };
-		E3A9448016D3B8280042B574 /* CSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTextView.h; sourceTree = "<group>"; };
-		E3A9448116D3B8280042B574 /* CSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTextView.m; sourceTree = "<group>"; };
+		E3A9447516D3B7FD0042B574 /* CSNPlaceholderTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSNPlaceholderTextViewTests.m; sourceTree = "<group>"; };
+		E3A9448016D3B8280042B574 /* CSNPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNPlaceholderTextView.h; sourceTree = "<group>"; };
+		E3A9448116D3B8280042B574 /* CSNPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNPlaceholderTextView.m; sourceTree = "<group>"; };
 		E3A9448316D3D14D0042B574 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -91,9 +91,9 @@
 		E3A9442D16D3B7FD0042B574 = {
 			isa = PBXGroup;
 			children = (
-				E3A9447F16D3B81A0042B574 /* CSTextView */,
-				E3A9443F16D3B7FD0042B574 /* CSTextViewDemo */,
-				E3A9446E16D3B7FD0042B574 /* CSTextViewDemoTests */,
+				E3A9447F16D3B81A0042B574 /* CSNPlaceholderTextView */,
+				E3A9443F16D3B7FD0042B574 /* CSNPlaceholderTextViewDemo */,
+				E3A9446E16D3B7FD0042B574 /* CSNPlaceholderTextViewDemoTests */,
 				E3A9443816D3B7FD0042B574 /* Frameworks */,
 				E3A9443716D3B7FD0042B574 /* Products */,
 			);
@@ -102,8 +102,8 @@
 		E3A9443716D3B7FD0042B574 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3A9443616D3B7FD0042B574 /* CSTextViewDemo.app */,
-				E3A9446716D3B7FD0042B574 /* CSTextViewDemoTests.xctest */,
+				E3A9443616D3B7FD0042B574 /* CSNPlaceholderTextViewDemo.app */,
+				E3A9446716D3B7FD0042B574 /* CSNPlaceholderTextViewDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3A9443F16D3B7FD0042B574 /* CSTextViewDemo */ = {
+		E3A9443F16D3B7FD0042B574 /* CSNPlaceholderTextViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				E3A9444816D3B7FD0042B574 /* AppDelegate.h */,
@@ -133,53 +133,53 @@
 				E344276D18E1CE91005AE8E2 /* Images.xcassets */,
 				E3A9444016D3B7FD0042B574 /* Supporting Files */,
 			);
-			path = CSTextViewDemo;
+			path = CSNPlaceholderTextViewDemo;
 			sourceTree = "<group>";
 		};
 		E3A9444016D3B7FD0042B574 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E3A9444116D3B7FD0042B574 /* CSTextViewDemo-Info.plist */,
+				E3A9444116D3B7FD0042B574 /* CSNPlaceholderTextViewDemo-Info.plist */,
 				E3A9444216D3B7FD0042B574 /* InfoPlist.strings */,
 				E3A9444516D3B7FD0042B574 /* main.m */,
-				E3A9444716D3B7FD0042B574 /* CSTextViewDemo-Prefix.pch */,
+				E3A9444716D3B7FD0042B574 /* CSNPlaceholderTextViewDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E3A9446E16D3B7FD0042B574 /* CSTextViewDemoTests */ = {
+		E3A9446E16D3B7FD0042B574 /* CSNPlaceholderTextViewDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3A9447516D3B7FD0042B574 /* CSTextViewDemoTests.m */,
+				E3A9447516D3B7FD0042B574 /* CSNPlaceholderTextViewTests.m */,
 				E3A9446F16D3B7FD0042B574 /* Supporting Files */,
 			);
-			path = CSTextViewDemoTests;
+			path = CSNPlaceholderTextViewDemoTests;
 			sourceTree = "<group>";
 		};
 		E3A9446F16D3B7FD0042B574 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E3A9447016D3B7FD0042B574 /* CSTextViewDemoTests-Info.plist */,
+				E3A9447016D3B7FD0042B574 /* CSNPlaceholderTextViewDemoTests-Info.plist */,
 				E3A9447116D3B7FD0042B574 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E3A9447F16D3B81A0042B574 /* CSTextView */ = {
+		E3A9447F16D3B81A0042B574 /* CSNPlaceholderTextView */ = {
 			isa = PBXGroup;
 			children = (
-				E3A9448016D3B8280042B574 /* CSTextView.h */,
-				E3A9448116D3B8280042B574 /* CSTextView.m */,
+				E3A9448016D3B8280042B574 /* CSNPlaceholderTextView.h */,
+				E3A9448116D3B8280042B574 /* CSNPlaceholderTextView.m */,
 			);
-			path = CSTextView;
+			path = CSNPlaceholderTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3A9443516D3B7FD0042B574 /* CSTextViewDemo */ = {
+		E3A9443516D3B7FD0042B574 /* CSNPlaceholderTextViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3A9447916D3B7FD0042B574 /* Build configuration list for PBXNativeTarget "CSTextViewDemo" */;
+			buildConfigurationList = E3A9447916D3B7FD0042B574 /* Build configuration list for PBXNativeTarget "CSNPlaceholderTextViewDemo" */;
 			buildPhases = (
 				E3A9443216D3B7FD0042B574 /* Sources */,
 				E3A9443316D3B7FD0042B574 /* Frameworks */,
@@ -189,14 +189,14 @@
 			);
 			dependencies = (
 			);
-			name = CSTextViewDemo;
+			name = CSNPlaceholderTextViewDemo;
 			productName = CSTextViewDemo;
-			productReference = E3A9443616D3B7FD0042B574 /* CSTextViewDemo.app */;
+			productReference = E3A9443616D3B7FD0042B574 /* CSNPlaceholderTextViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E3A9446616D3B7FD0042B574 /* CSTextViewDemoTests */ = {
+		E3A9446616D3B7FD0042B574 /* CSNPlaceholderTextViewDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3A9447C16D3B7FD0042B574 /* Build configuration list for PBXNativeTarget "CSTextViewDemoTests" */;
+			buildConfigurationList = E3A9447C16D3B7FD0042B574 /* Build configuration list for PBXNativeTarget "CSNPlaceholderTextViewDemoTests" */;
 			buildPhases = (
 				E3A9446216D3B7FD0042B574 /* Sources */,
 				E3A9446316D3B7FD0042B574 /* Frameworks */,
@@ -208,9 +208,9 @@
 			dependencies = (
 				E3A9446D16D3B7FD0042B574 /* PBXTargetDependency */,
 			);
-			name = CSTextViewDemoTests;
+			name = CSNPlaceholderTextViewDemoTests;
 			productName = CSTextViewDemoTests;
-			productReference = E3A9446716D3B7FD0042B574 /* CSTextViewDemoTests.xctest */;
+			productReference = E3A9446716D3B7FD0042B574 /* CSNPlaceholderTextViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "cyan-stivy.net";
 			};
-			buildConfigurationList = E3A9443116D3B7FD0042B574 /* Build configuration list for PBXProject "CSTextViewDemo" */;
+			buildConfigurationList = E3A9443116D3B7FD0042B574 /* Build configuration list for PBXProject "CSNPlaceholderTextViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,8 +235,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3A9443516D3B7FD0042B574 /* CSTextViewDemo */,
-				E3A9446616D3B7FD0042B574 /* CSTextViewDemoTests */,
+				E3A9443516D3B7FD0042B574 /* CSNPlaceholderTextViewDemo */,
+				E3A9446616D3B7FD0042B574 /* CSNPlaceholderTextViewDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -287,7 +287,7 @@
 				E3A9444A16D3B7FD0042B574 /* AppDelegate.m in Sources */,
 				E3A9445616D3B7FD0042B574 /* FirstViewController.m in Sources */,
 				E3A9445D16D3B7FD0042B574 /* SecondViewController.m in Sources */,
-				E3A9448216D3B8280042B574 /* CSTextView.m in Sources */,
+				E3A9448216D3B8280042B574 /* CSNPlaceholderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A9447616D3B7FD0042B574 /* CSTextViewDemoTests.m in Sources */,
+				E3A9447616D3B7FD0042B574 /* CSNPlaceholderTextViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +304,7 @@
 /* Begin PBXTargetDependency section */
 		E3A9446D16D3B7FD0042B574 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E3A9443516D3B7FD0042B574 /* CSTextViewDemo */;
+			target = E3A9443516D3B7FD0042B574 /* CSNPlaceholderTextViewDemo */;
 			targetProxy = E3A9446C16D3B7FD0042B574 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -404,9 +404,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CSTextViewDemo/CSTextViewDemo-Prefix.pch";
-				INFOPLIST_FILE = "CSTextViewDemo/CSTextViewDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "CSNPlaceholderTextViewDemo/CSNPlaceholderTextViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CSNPlaceholderTextViewDemo/CSNPlaceholderTextViewDemo-Info.plist";
+				PRODUCT_NAME = CSNPlaceholderTextViewDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -422,9 +422,9 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CSTextViewDemo/CSTextViewDemo-Prefix.pch";
-				INFOPLIST_FILE = "CSTextViewDemo/CSTextViewDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "CSNPlaceholderTextViewDemo/CSNPlaceholderTextViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CSNPlaceholderTextViewDemo/CSNPlaceholderTextViewDemo-Info.plist";
+				PRODUCT_NAME = CSNPlaceholderTextViewDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -432,7 +432,7 @@
 		E3A9447D16D3B7FD0042B574 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSTextViewDemo.app/CSTextViewDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSNPlaceholderTextViewDemo.app/CSNPlaceholderTextViewDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -440,8 +440,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSTextViewDemo/CSTextViewDemo-Prefix.pch";
-				INFOPLIST_FILE = "CSTextViewDemoTests/CSTextViewDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CSNPlaceholderTextViewDemoTests/CSNPlaceholderTextViewDemoTests-Info.plist";
+				PRODUCT_NAME = CSNPlaceholderTextViewDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -450,7 +450,7 @@
 		E3A9447E16D3B7FD0042B574 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSTextViewDemo.app/CSTextViewDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSNPlaceholderTextViewDemo.app/CSNPlaceholderTextViewDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -458,8 +458,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSTextViewDemo/CSTextViewDemo-Prefix.pch";
-				INFOPLIST_FILE = "CSTextViewDemoTests/CSTextViewDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "CSNPlaceholderTextViewDemoTests/CSNPlaceholderTextViewDemoTests-Info.plist";
+				PRODUCT_NAME = CSNPlaceholderTextViewDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -468,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3A9443116D3B7FD0042B574 /* Build configuration list for PBXProject "CSTextViewDemo" */ = {
+		E3A9443116D3B7FD0042B574 /* Build configuration list for PBXProject "CSNPlaceholderTextViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3A9447716D3B7FD0042B574 /* Debug */,
@@ -477,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3A9447916D3B7FD0042B574 /* Build configuration list for PBXNativeTarget "CSTextViewDemo" */ = {
+		E3A9447916D3B7FD0042B574 /* Build configuration list for PBXNativeTarget "CSNPlaceholderTextViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3A9447A16D3B7FD0042B574 /* Debug */,
@@ -486,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3A9447C16D3B7FD0042B574 /* Build configuration list for PBXNativeTarget "CSTextViewDemoTests" */ = {
+		E3A9447C16D3B7FD0042B574 /* Build configuration list for PBXNativeTarget "CSNPlaceholderTextViewDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3A9447D16D3B7FD0042B574 /* Debug */,

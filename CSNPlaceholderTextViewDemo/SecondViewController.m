@@ -1,17 +1,17 @@
 //
 //  SecondViewController.m
-//  CSTextViewDemo
+//  CSNPlaceholderTextViewDemo
 //
 //  Created by griffin_stewie on 2013/02/19.
 //  Copyright (c) 2013年 cyan-stivy.net. All rights reserved.
 //
 
 #import "SecondViewController.h"
-#import "CSTextView.h"
+#import "CSNPlaceholderTextView.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface SecondViewController ()
-@property (nonatomic, strong) CSTextView *textView;
+@property (nonatomic, strong) CSNPlaceholderTextView *textView;
 @end
 
 @implementation SecondViewController
@@ -29,10 +29,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (CSTextView *)textView
+- (CSNPlaceholderTextView *)textView
 {
     if (_textView == nil) {
-        _textView = [[CSTextView alloc] initWithFrame:CGRectMake(10, 60, 300, 130)];
+        _textView = [[CSNPlaceholderTextView alloc] initWithFrame:CGRectMake(10, 60, 300, 130)];
         _textView.placeholder = @"This is placeholder text";
         _textView.font = [UIFont systemFontOfSize:13];
         _textView.contentInset = UIEdgeInsetsMake(5, 5, 5, -5);
