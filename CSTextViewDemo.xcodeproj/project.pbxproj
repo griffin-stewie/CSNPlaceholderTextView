@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E344276E18E1CE91005AE8E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E344276D18E1CE91005AE8E2 /* Images.xcassets */; };
+		E344277018E1D0FA005AE8E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E344276F18E1D0FA005AE8E2 /* XCTest.framework */; };
 		E3A9443A16D3B7FD0042B574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A9443916D3B7FD0042B574 /* UIKit.framework */; };
 		E3A9443C16D3B7FD0042B574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A9443B16D3B7FD0042B574 /* Foundation.framework */; };
 		E3A9443E16D3B7FD0042B574 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A9443D16D3B7FD0042B574 /* CoreGraphics.framework */; };
@@ -17,7 +18,6 @@
 		E3A9445316D3B7FD0042B574 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A9445116D3B7FD0042B574 /* MainStoryboard.storyboard */; };
 		E3A9445616D3B7FD0042B574 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A9445516D3B7FD0042B574 /* FirstViewController.m */; };
 		E3A9445D16D3B7FD0042B574 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A9445C16D3B7FD0042B574 /* SecondViewController.m */; };
-		E3A9446916D3B7FD0042B574 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A9446816D3B7FD0042B574 /* SenTestingKit.framework */; };
 		E3A9446A16D3B7FD0042B574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A9443916D3B7FD0042B574 /* UIKit.framework */; };
 		E3A9446B16D3B7FD0042B574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A9443B16D3B7FD0042B574 /* Foundation.framework */; };
 		E3A9447316D3B7FD0042B574 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3A9447116D3B7FD0042B574 /* InfoPlist.strings */; };
@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		E344276D18E1CE91005AE8E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E344276F18E1D0FA005AE8E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E3A9443616D3B7FD0042B574 /* CSTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A9443916D3B7FD0042B574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E3A9443B16D3B7FD0042B574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,11 +54,9 @@
 		E3A9445516D3B7FD0042B574 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		E3A9445B16D3B7FD0042B574 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		E3A9445C16D3B7FD0042B574 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		E3A9446716D3B7FD0042B574 /* CSTextViewDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSTextViewDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3A9446816D3B7FD0042B574 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E3A9446716D3B7FD0042B574 /* CSTextViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSTextViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A9447016D3B7FD0042B574 /* CSTextViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSTextViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		E3A9447216D3B7FD0042B574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E3A9447416D3B7FD0042B574 /* CSTextViewDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSTextViewDemoTests.h; sourceTree = "<group>"; };
 		E3A9447516D3B7FD0042B574 /* CSTextViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSTextViewDemoTests.m; sourceTree = "<group>"; };
 		E3A9448016D3B8280042B574 /* CSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTextView.h; sourceTree = "<group>"; };
 		E3A9448116D3B8280042B574 /* CSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTextView.m; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E344277018E1D0FA005AE8E2 /* XCTest.framework in Frameworks */,
 				E3A9448416D3D14D0042B574 /* QuartzCore.framework in Frameworks */,
 				E3A9443A16D3B7FD0042B574 /* UIKit.framework in Frameworks */,
 				E3A9443C16D3B7FD0042B574 /* Foundation.framework in Frameworks */,
@@ -80,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A9446916D3B7FD0042B574 /* SenTestingKit.framework in Frameworks */,
 				E3A9446A16D3B7FD0042B574 /* UIKit.framework in Frameworks */,
 				E3A9446B16D3B7FD0042B574 /* Foundation.framework in Frameworks */,
 			);
@@ -104,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				E3A9443616D3B7FD0042B574 /* CSTextViewDemo.app */,
-				E3A9446716D3B7FD0042B574 /* CSTextViewDemoTests.octest */,
+				E3A9446716D3B7FD0042B574 /* CSTextViewDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +115,7 @@
 				E3A9443916D3B7FD0042B574 /* UIKit.framework */,
 				E3A9443B16D3B7FD0042B574 /* Foundation.framework */,
 				E3A9443D16D3B7FD0042B574 /* CoreGraphics.framework */,
-				E3A9446816D3B7FD0042B574 /* SenTestingKit.framework */,
+				E344276F18E1D0FA005AE8E2 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,7 +150,6 @@
 		E3A9446E16D3B7FD0042B574 /* CSTextViewDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3A9447416D3B7FD0042B574 /* CSTextViewDemoTests.h */,
 				E3A9447516D3B7FD0042B574 /* CSTextViewDemoTests.m */,
 				E3A9446F16D3B7FD0042B574 /* Supporting Files */,
 			);
@@ -212,8 +210,8 @@
 			);
 			name = CSTextViewDemoTests;
 			productName = CSTextViewDemoTests;
-			productReference = E3A9446716D3B7FD0042B574 /* CSTextViewDemoTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = E3A9446716D3B7FD0042B574 /* CSTextViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -221,6 +219,7 @@
 		E3A9442E16D3B7FD0042B574 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "cyan-stivy.net";
 			};
@@ -399,10 +398,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSTextViewDemo/CSTextViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "CSTextViewDemo/CSTextViewDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,10 +416,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSTextViewDemo/CSTextViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "CSTextViewDemo/CSTextViewDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -427,15 +434,16 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSTextViewDemo.app/CSTextViewDemo";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSTextViewDemo/CSTextViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "CSTextViewDemoTests/CSTextViewDemoTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
@@ -444,15 +452,16 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CSTextViewDemo.app/CSTextViewDemo";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSTextViewDemo/CSTextViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "CSTextViewDemoTests/CSTextViewDemoTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};

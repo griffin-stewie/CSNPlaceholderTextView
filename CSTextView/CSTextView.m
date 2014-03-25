@@ -44,11 +44,7 @@
 {
     if (_placeholderLabel == nil) {
         _placeholderLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-        if ([[[UIDevice currentDevice] systemVersion] compare:@"6" options:NSNumericSearch] == NSOrderedAscending) {
-            _placeholderLabel.textAlignment = UITextAlignmentLeft;
-        } else {
-            _placeholderLabel.textAlignment = NSTextAlignmentLeft;
-        }
+        _placeholderLabel.textAlignment = NSTextAlignmentLeft;
         _placeholderLabel.textColor = [UIColor colorWithWhite:0.7f alpha:1.0f];
         _placeholderLabel.backgroundColor = [UIColor clearColor];
         _placeholderLabel.userInteractionEnabled = NO;

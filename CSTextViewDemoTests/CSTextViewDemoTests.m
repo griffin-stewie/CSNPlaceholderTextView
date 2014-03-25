@@ -6,7 +6,10 @@
 //  Copyright (c) 2013年 cyan-stivy.net. All rights reserved.
 //
 
-#import "CSTextViewDemoTests.h"
+#import <XCTest/XCTest.h>
+
+@interface CSTextViewDemoTests : XCTestCase
+@end
 
 @implementation CSTextViewDemoTests
 
@@ -26,7 +29,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in CSTextViewDemoTests");
+    XCTFail(@"Unit tests are not implemented yet in CSTextViewDemoTests");
 }
 
 @end
