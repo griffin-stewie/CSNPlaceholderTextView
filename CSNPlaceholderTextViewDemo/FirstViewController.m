@@ -32,10 +32,17 @@
     [super viewWillAppear:animated];
 }
 
+- (void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    
+    self.textView.frame = CGRectMake(10, 20, 300, 130);
+}
+
 - (CSNPlaceholderTextView *)textView
 {
     if (_textView == nil) {
-        _textView = [[CSNPlaceholderTextView alloc] initWithFrame:CGRectMake(10, 60, 300, 130)];
+        _textView = [[CSNPlaceholderTextView alloc] initWithFrame:CGRectZero];
         _textView.placeholder = @"This is placeholder text";
         _textView.font = [UIFont systemFontOfSize:19];
     }

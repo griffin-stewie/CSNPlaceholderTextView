@@ -29,10 +29,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    
+    self.textView.frame = CGRectMake(10, 20, 300, 130);
+}
+
 - (CSNPlaceholderTextView *)textView
 {
     if (_textView == nil) {
-        _textView = [[CSNPlaceholderTextView alloc] initWithFrame:CGRectMake(10, 60, 300, 130)];
+        _textView = [[CSNPlaceholderTextView alloc] initWithFrame:CGRectZero];
         _textView.placeholder = @"This is placeholder text";
         _textView.font = [UIFont systemFontOfSize:13];
         _textView.contentInset = UIEdgeInsetsMake(5, 5, 5, -5);
