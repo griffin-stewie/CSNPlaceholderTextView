@@ -1,32 +1,45 @@
-# CSTextView
+# CSNPlaceholderTextView
 
-## 概要
+[![CocoaPods](http://img.shields.io/cocoapods/v/CSNPlaceholderTextView.svg)](http://cocoadocs.org/docsets/CSNPlaceholderTextView/)
+![](http://img.shields.io/badge/license-MIT-green.svg)
 
-`UITextView` に `UITextField` のような `placeholder` を追加したものです。
+## Overview
 
-## 特徴
+Subclass of UITextView with placeholder property like UITextField has.
 
-* 挙動は Calendar.app の イベント追加画面 (`EKEventEditViewController`)のメモの部分に似せている
-* placeholder の表示位置は Caret の位置に自動調整
-* placeholder の font は textView 側の `font` プロパティに連動
+[For Japanese](http://griffin-stewie.hatenablog.com/entry/2013/02/20/013321 "Placeholder 付き UITextView - griffin-stewieのブログ")
 
-## 使い方
+## Requirements
 
-### CSTextView
+* iOS 6 or Later
+* ARC
 
-```
-_textView = [[CSTextView alloc] initWithFrame:CGRectMake(10, 60, 300, 130)];
+## Feature
+
+* Look and feel is Similar of memo on `EKEventEditViewController`.
+* placeholder's position is caret position. 
+* placeholder font is in conjunction with UITextView's `font` property.
+
+## Usage
+
+```objc
+_textView = [[CSNPlaceholderTextView alloc] initWithFrame:CGRectMake(10, 60, 300, 130)];
 _textView.placeholder = @"This is placeholder text";
 _textView.font = [UIFont systemFontOfSize:19];
 ```    
 
-## インストール
+## Install
 
-CSTextView フォルダをプロジェクトに追加してください。
+Use CocoaPods,
 
-## ライセンス
+```ruby
+pod 'CSNPlaceholderTextView', '~> 0.0'
+```
 
-MIT License
+
+## License
+
+The MIT License (MIT)
 
 Copyright (c) 2013 griffin_stewie
 
