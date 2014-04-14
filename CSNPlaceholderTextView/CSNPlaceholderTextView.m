@@ -30,14 +30,28 @@
 
 @implementation CSNPlaceholderTextView
 
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        [self commonInit];
+    }
+    return self;
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self addSubview:self.placeholderLabel];
-        self.placeholderLabel.hidden = YES;
+        [self commonInit];
     }
     return self;
+}
+
+- (void)commonInit
+{
+    [self addSubview:self.placeholderLabel];
+    self.placeholderLabel.hidden = YES;
 }
 
 - (UILabel *)placeholderLabel
