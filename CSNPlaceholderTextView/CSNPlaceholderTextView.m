@@ -50,7 +50,8 @@
 
 - (void)commonInit
 {
-    [self addSubview:self.placeholderLabel];
+    // Insert as first subview so appears below the insertion marker etc.
+    [self insertSubview:self.placeholderLabel atIndex:0];
     self.placeholderLabel.hidden = YES;
 }
 
