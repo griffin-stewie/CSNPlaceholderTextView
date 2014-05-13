@@ -86,6 +86,7 @@
 {
     return self.placeholderLabel.text;
 }
+
 - (void)setPlaceholder:(NSString *)placeholder
 {
     self.placeholderLabel.text = placeholder;
