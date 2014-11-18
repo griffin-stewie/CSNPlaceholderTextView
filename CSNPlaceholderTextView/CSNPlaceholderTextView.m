@@ -96,7 +96,7 @@
 
 - (void)updatePlaceholderLabelVisibility
 {
-    self.placeholderLabel.hidden = ([self.text length]) ? YES:NO;
+    self.placeholderLabel.hidden = self.text.length > 0;
 }
 
 - (void)willMoveToSuperview:(UIView *)newSuperview
